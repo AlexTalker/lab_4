@@ -7,7 +7,6 @@ class Parser
 private:
     std::string str;
     std::string match;
-    bool isUpdated;
     unsigned int last_position;
     bool end_of_parsing;
 public:

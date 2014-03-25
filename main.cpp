@@ -19,8 +19,9 @@ int main(void)
     p.update_match(c);
     while(!p.endOfParsing()){
         str = p.next();
-        cout << str << endl;
+        cout << str;
     }
+
     return 0;
 }
 
